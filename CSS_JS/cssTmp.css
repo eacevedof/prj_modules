@@ -1,0 +1,25 @@
+/*FORMULARIO DE CONTACTO */
+div.clsContacto *{padding:0; margin:auto; }
+    .clsContacto {display:block; width:100%; font-size:15px; font-style:normal; /*border:1px solid blue;*/}
+    /* MENSAJES */
+    .clsContacto #divMensaje{display:block; color:#3366CC; text-align:center;}
+
+    .clsContacto form fieldset{width:100%; border:1px solid #295b75;}
+    .clsContacto form fieldset #divFrmHead{/*padding-top:5px; padding-bottom:5px; height:15px; text-align:center; color:white; letter-spacing:1px; font-weight:normal; border-bottom:thin solid #999999;*/}
+
+    .clsContacto form fieldset #divFrmBody{width:inherit; margin-top:5px; /*border:1px solid lime;*/}
+    /*CONTENEDOR CONTROLES*/
+    .clsContacto form fieldset #divFrmBody dl{width:100%; /*border:1px solid green;*/}
+
+    /*LOS LABEL*/
+    .clsContacto form fieldset #divFrmBody dl dt{float:left; margin-left:8%; padding-top:5px; width:55px; font-size:14px; text-align:right; /*border:1px solid fuchsia;*/}
+    /*LOS TEXTBOX*/
+    .clsContacto form fieldset #divFrmBody dl dd{float:left; padding:3px; width:250px; border-bottom:1px dashed #ccc; /*border:1px solid red;*/}
+    .clsContacto form fieldset #divFrmBody dl dd input[type=text]{ width:250px;}
+    .clsContacto form fieldset #divFrmBody dl dd textarea{width:253px; height:100px;}
+
+    /* DIV PARCHE cuando se usa float (de los dl) */
+    .clsContacto form fieldset #divFrmBody div.clsDivFix{float:none; clear:both; margin:0; padding:0; border:none; font-size:1px; /*border:1px solid blue;*/}
+
+    .clsContacto form fieldset #divFrmFoot{width:100%; height:30px; text-align:center; border-top:1px solid gray; background:#d8d8d8;}
+    /*.clsContacto form fieldset #divFrmFoot input[type=submit]{margin:7px;}*/

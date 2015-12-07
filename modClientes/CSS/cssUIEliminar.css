@@ -1,0 +1,20 @@
+/*Ficha */
+form.clsUIEliminar {font-size:14px; width:700px; border:1px solid #295b75; background:black;}
+    .clsUIEliminar #divFrmHead{color:white; font-weight:normal; background:#852f2f;}
+
+    .clsUIEliminar #divFrmBody{width:inherit; margin-top:5px; /*border:1px solid lime;*/}
+    /*CONTENEDOR CONTROLES*/
+    .clsUIEliminar #divFrmBody table{margin:2px 15px 1px 0; width:100%; border-collapse: collapse; border:1px solid gray;/*#d8d8d8*/}
+
+    .clsUIEliminar #divFrmBody table thead th{padding:6px; color:#fff; border-left:1px dotted #b1b0b0; border-bottom:1px solid #d7d7d7; background:#ca0606;}
+    .clsUIEliminar #divFrmBody table th, table td {padding:3px 5px; font-size:12px; text-align:left;}
+    .clsUIEliminar #divFrmBody table th:first-child{border-left:none}
+
+    .clsUIEliminar #divFrmBody table tbody td {border-left: 1px dotted #b0afaf; border-top:1px dotted #b0afaf}
+    .clsUIEliminar #divFrmBody table tbody td:first-child {border-left:none; border-top:none;}/*borde del texto*/
+    .clsUIEliminar #divFrmBody table tbody td {border-bottom:1px solid #b0afaf;}
+    .clsUIEliminar #divFrmBody table tbody tr.clsPar {background:#ddc2c2;}
+    .clsUIEliminar #divFrmBody table tbody tr.clsImpar {background:#ededed;}
+
+    .clsUIEliminar #divFrmFoot{width:100%; padding-top:5px; height:25px; text-align:center; border-top:1px solid gray; background:#d8d8d8;}
+    /*.clsUIEliminar form  #divFrmFoot input[type=submit]{margin:7px;}*/

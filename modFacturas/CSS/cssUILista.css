@@ -1,0 +1,17 @@
+form.clsUILista{width:800px; font-family:verdana; font-size:12px; font-style:normal;}
+    .clsUILista #divFrmHead{height:25px; color:white; font-size:17px; background:#999;}
+
+    .clsUILista #divFrmBody table{width:100%; border-collapse: collapse; border:1px solid gray;/*#d8d8d8*/}
+
+    .clsUILista #divFrmBody table thead th{padding:6px; color:#fff; border-left:1px dotted #b1b0b0; border-bottom:1px solid #d7d7d7; background:black;}
+    .clsUILista #divFrmBody table th, table td {padding:3px 5px; font-size:12px; text-align:left;}
+    .clsUILista #divFrmBody table th:first-child{border-left:none}
+
+    .clsUILista #divFrmBody table tbody td {border-left: 1px dotted #b0afaf; border-top:1px dotted #b0afaf}
+    .clsUILista #divFrmBody table tbody td:first-child {border-left:none; border-top:none;}/*borde del texto*/
+    .clsUILista #divFrmBody table tbody td {border-bottom:1px solid #b0afaf;}
+    .clsUILista #divFrmBody table tbody tr.clsPar {background:#fdb83f;}
+    .clsUILista #divFrmBody table tbody tr.clsImpar {background:#ededed;}
+
+    /*Los botones identicos a divFrmFoot*/
+    .clsUILista #divFrmTop, #divFrmFoot{width:798px; padding-top:5px; height:25px; text-align:center; border:1px solid gray; background:#d8d8d8;}

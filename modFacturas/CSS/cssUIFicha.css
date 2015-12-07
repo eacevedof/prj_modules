@@ -1,0 +1,42 @@
+/*Ficha */
+form.clsUIFicha {background:#fdb83f; font-size:14px; width:700px;}
+    .clsUIFicha fieldset{width:100%; border:1px solid #295b75;}
+    .clsUIFicha fieldset #divFrmHead{color:white; font-weight:normal; background:black;}
+
+    .clsUIFicha fieldset #divFrmBody{width:inherit; margin-top:5px; /*border:1px solid lime;*/}
+    /*CONTENEDOR CONTROLES*/
+    .clsUIFicha fieldset #divFrmBody dl{width:100%; /*border:1px solid green;*/}
+
+    /*LOS LABEL*/
+    .clsUIFicha fieldset #divFrmBody dl dt{float:left; width:0; height:20px; font-weight:bold; text-align:right;}
+    /*LOS LABEL CON DATOS*/
+    .clsUIFicha fieldset #divFrmBody dl dd{float:right; padding:3px; width:99%; height:20px; text-align:left; border-bottom:1px solid black; }
+    .clsUIFicha fieldset #divFrmBody dl dd input[type=text]{ width:250px; font-family:helvetica; font-size:13px;}
+    .clsUIFicha fieldset #divFrmBody dl dd textarea{width:95%; height:100px; font-family:helvetica; font-size:12px;}
+    /* DIV PARCHE cuando se usa float (de los dl) */
+    .clsUIFicha fieldset #divFrmBody div.clsDivFix{float:none; clear:both; margin:0; padding:0; border:none; font-size:1px; /*border:1px solid blue;*/}
+
+    /* TABLA */
+    .clsUIFicha #divFrmBody table{width:100%; border-collapse: collapse; border:1px solid gray;/*#d8d8d8*/}
+
+    .clsUIFicha #divFrmBody table thead th{color:#fff;text-align:center; border-left:1px dotted #b1b0b0; border-bottom:1px solid #d7d7d7; background:black;}
+    .clsUIFicha #divFrmBody table th, table td {padding:3px 5px; font-size:12px; text-align:left;}
+    .clsUIFicha #divFrmBody table th:first-child{border-left:none}
+
+    .clsUIFicha #divFrmBody table tbody td {border-left: 1px dotted #b0afaf; border-top:1px dotted #b0afaf; border-bottom:1px solid #b0afaf;}
+    .clsUIFicha #divFrmBody table tbody td:first-child {border-left:none; border-top:none;}/*borde del texto*/
+    .clsUIFicha #divFrmBody table tbody tr.clsPar {background:#fdb83f;}
+    .clsUIFicha #divFrmBody table tbody tr.clsImpar {background:#ededed;}
+
+    .clsUIFicha #divFrmBody table tfoot td {font-weight:bold; text-align:right;}
+
+    .clsUIFicha fieldset #divFrmFoot{width:100%; padding-top:5px; height:25px; text-align:center; border-top:1px solid gray; background:#d8d8d8;}
+    /*.clsUIFicha form fieldset #divFrmFoot input[type=submit]{margin:7px;}*/
+
+ dl.clsAuto{width:100%; height:auto; background:white; text-align:left;}
+    .clsAuto dt{padding:5px; height:auto; font-weight:bold; text-align:left;}
+    .clsAuto dd{padding:5px; height:auto; text-align:left; }
+    .clsAuto dd textarea{width:95%; height:100px; font-family:helvetica; font-size:12px;}
+
+ input[type=text].clsConcepto{ width:380px;}
+ input[type=text].clsCantidad{ width:50px; text-align:right;}

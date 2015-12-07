@@ -1,0 +1,14 @@
+div.clsUIPanel{padding:0; margin-left:5px;  width:800px; font-family:verdana; font-size:12px; font-style:normal;}
+   .clsUIPanel table{margin:2px 15px 1px 0; width:800px; border-collapse: collapse; border:1px solid #000;}
+
+   .clsUIPanel table thead th{padding:6px; color:#fff; border-left:1px dotted #b1b0b0; border-bottom:1px solid #d7d7d7; background:black;}
+   .clsUIPanel table th, table td {padding:3px 5px; font-size:12px; text-align:left;}
+   .clsUIPanel table th:first-child{border-left:none}
+
+   .clsUIPanel table tbody td {font-size:14px; border-left: 1px dotted #b0afaf; border-top:1px dotted #b0afaf;border-bottom:1px solid #b0afaf; background:#fcc03e;}
+   .clsUIPanel table tbody td:first-child {border-left:none; border-top:none;}/*borde del texto*/
+   .clsUIPanel table tbody td ul{margin-left:25px;}
+   .clsUIPanel table tbody tr.clsPar {background:#87CEEB}
+
+   .clsUIPanel #divBoton{margin-left:-1px; clear:both; padding:3px; width:693px; height:20px; border:1px solid gray; background:#B0C4DE;}
+   .clsUIPanel #divBoton input[type=button]{margin-left:13px;}

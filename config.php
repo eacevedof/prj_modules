@@ -1,0 +1,4 @@
+<?php
+    $_RUTARAIZ=$_SERVER['DOCUMENT_ROOT'].'/proyMODULOS/';
+    $_RUTAHEADER=$_SERVER['DOCUMENT_ROOT'].'/';
+?>

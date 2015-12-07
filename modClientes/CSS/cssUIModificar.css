@@ -1,0 +1,25 @@
+/*Ficha */
+form.clsUIModificar {background:#fdb83f; font-size:14px; width:700px;}
+    .clsUIModificar fieldset{width:100%; border:1px solid #295b75;}
+    .clsUIModificar fieldset #divFrmHead{color:white; font-weight:normal; background:black;}
+
+    .clsUIModificar fieldset #divFrmBody{width:inherit; margin-top:5px; /*border:1px solid lime;*/}
+    /*CONTENEDOR CONTROLES*/
+    .clsUIModificar fieldset #divFrmBody dl{width:100%; /*border:1px solid green;*/}
+
+    /*LOS LABEL*/
+    .clsUIModificar fieldset #divFrmBody dl dt{float:left; margin-left:3px; padding:3px; width:16%; height:20px; font-weight:bold; text-align:right; border-bottom:1px solid white;/*border:1px solid fuchsia;*/}
+    /*LOS LABEL CON DATOS*/
+    .clsUIModificar fieldset #divFrmBody dl dd{float:right; padding:3px; width:78%; height:20px; text-align:left; border-bottom:1px solid white; }
+    .clsUIModificar fieldset #divFrmBody dl dd input[type=text]{ width:250px; font-family:helvetica; font-size:13px;}
+    .clsUIModificar fieldset #divFrmBody dl dd textarea{width:95%; height:100px; font-family:helvetica; font-size:12px;}
+    /* DIV PARCHE cuando se usa float (de los dl) */
+    .clsUIModificar fieldset #divFrmBody div.clsDivFix{float:none; clear:both; margin:0; padding:0; border:none; font-size:1px; /*border:1px solid blue;*/}
+
+    .clsUIModificar fieldset #divFrmFoot{width:100%; padding-top:5px; height:25px; text-align:center; border-top:1px solid gray; background:#d8d8d8;}
+    /*.clsUIModificar form fieldset #divFrmFoot input[type=submit]{margin:7px;}*/
+
+ dl.clsAuto{width:100%; height:auto; background:white; text-align:left;}
+    .clsAuto dt{padding:5px; height:auto; font-weight:bold; text-align:left;}
+    .clsAuto dd{padding:5px; height:auto; text-align:left; }
+    .clsAuto dd textarea{width:95%; height:100px; font-family:helvetica; font-size:12px;}
